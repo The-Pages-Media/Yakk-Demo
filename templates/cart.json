@@ -1,0 +1,51 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "cart-items": {
+      "type": "main-cart-items",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "cart-footer": {
+      "type": "main-cart-footer",
+      "blocks": {
+        "subtotal": {
+          "type": "subtotal",
+          "settings": {}
+        },
+        "buttons": {
+          "type": "buttons",
+          "settings": {}
+        },
+        "yakk_bulk_gifting_cart_button_c7g8jH": {
+          "type": "shopify://apps/yakk-bulk-gifting/blocks/cart-button/d11fd624-ee2c-4e2c-95ea-650b828b8245",
+          "settings": {
+            "button_text": "Send as Gift",
+            "button_class": "button button--full-width",
+            "bulk_page": "bulk-gifting"
+          }
+        }
+      },
+      "block_order": [
+        "subtotal",
+        "buttons",
+        "yakk_bulk_gifting_cart_button_c7g8jH"
+      ],
+      "settings": {}
+    }
+  },
+  "order": [
+    "cart-items",
+    "cart-footer"
+  ]
+}

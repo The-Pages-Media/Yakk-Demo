@@ -1,0 +1,65 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "1738514572a8d7fe75": {
+      "type": "apps",
+      "blocks": {
+        "yakk_bulk_gifting_index_4nJjdT": {
+          "type": "shopify://apps/yakk-bulk-gifting/blocks/index/d11fd624-ee2c-4e2c-95ea-650b828b8245",
+          "settings": {
+            "whats_in_box": "What's in each box",
+            "add_message_title": "Add A Message.",
+            "add_message_subtitle": "Let them know who it's from!",
+            "recipients_title": "Recipients.",
+            "recipients_subtitle": "Who are you sending this to.",
+            "contact_title": "Contact Details.",
+            "contact_subtitle": "We'll be in touch if something is off",
+            "footer_title": "We're ready to gift your orders.",
+            "footer_subtitle": "Just the way you want them.",
+            "ship_ready": "<ul><li>This is the dispatch date, not delivery date.</li><li>Items will ship as soon as available.</li><li>Contact support for queries.</li></ul>",
+            "ship_later": "<ul><li>This is the dispatch date, not delivery date.</li><li>Choose a preferred dispatch date.</li><li>Delivery times may vary by location.</li></ul>",
+            "link_color": "#20a8e0",
+            "button_bg_color": "#20a8e0",
+            "button_text_color": "#ffffff",
+            "error_color": "#eb2f2f",
+            "info_color": "#0096ff",
+            "success_color": "#52ca3f",
+            "max_width": 1200,
+            "border_radius_size": "small",
+            "product_image_ratio": "1",
+            "desktop_columns": 4,
+            "mobile_columns": "2",
+            "padding_top": 50,
+            "padding_bottom": 50,
+            "padding_sides": 0
+          }
+        }
+      },
+      "block_order": [
+        "yakk_bulk_gifting_index_4nJjdT"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1738514572a8d7fe75"
+  ]
+}

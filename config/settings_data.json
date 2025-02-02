@@ -298,5 +298,10 @@
         }
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      ".yakk-shipping__options {z-index: 1;}"
+    ]
   }
 }

@@ -1,10 +1,10 @@
 # Yakk 🤗 The Pages Media
 
-tpm-yakk.myshopify.com
+## Preview Theme
 
-## Preview URL
+URL: `https://tpm-yakk.myshopify.com/`
 
-`https://tpm-yakk.myshopify.com/`
+Password: `yakkyakkyakk`
 
 ## Modifications
 

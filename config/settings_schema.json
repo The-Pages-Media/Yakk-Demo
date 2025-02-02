@@ -1566,33 +1566,33 @@
       },
       {
         "type": "checkbox",
-        "id": "bulk_gifting_enabled",
+        "id": "yakk_enabled",
         "label": "Enable Bulk Gifting",
         "default": false
       },
       {
         "type": "page",
-        "id": "bulk_gifting_page",
+        "id": "yakk_page",
         "label": "Bulk Gifting Page",
         "info": "Select the page that will be used for the bulk gifting."
       },
       {
         "type": "text",
-        "id": "bulk_gifting_btn_text",
+        "id": "yakk_btn_text",
         "label": "Bulk Gifting Button Text",
         "info": "Enter the text for the bulk gifting button.",
         "default": "Send as Gift"
       },
       {
         "type": "color",
-        "id": "yakk_btn_bg",
-        "label": "Bulk Gifting Button Background",
+        "id": "yakk_btn_bg_color",
+        "label": "Bulk Gifting Button Background Color",
         "default": "#000000"
       },
       {
         "type": "color",
-        "id": "yakk_btn_text",
-        "label": "Bulk Gifting Button Text",
+        "id": "yakk_btn_txt_color",
+        "label": "Bulk Gifting Button Text Color",
         "default": "#ffffff"
       }    
     ]

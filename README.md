@@ -16,16 +16,16 @@ See the [Yakk Button Snippet](/snippets/yakk-btn.liquid) for the button that wil
 
 ```HTML
 <div class="cart__ctas">
-  <a id="yakk-cart-btn" href="{{ settings.bulk_gifting_page.url }}" class="button button--primary">
-    {{ settings.bulk_gifting_btn_text }}
+  <a id="yakk-cart-btn" href="{{ settings.yakk_page.url }}" class="button button--primary">
+    {{ settings.yakk_btn_text }}
   </a>
 </div>
 <style>
   #yakk-cart-btn {
     margin: 1rem auto;
     width: 100%;
-    background-color: {{ settings.yakk_btn_bg }};
-    color: {{ settings.yakk_btn_text }};
+    background-color: {{ settings.yakk_btn_bg_color }};
+    color: {{ settings.yakk_btn_txt_color }};
   }
 </style>
 ```
@@ -36,7 +36,7 @@ See the [Drawer Cart Snippet](/snippets/cart-drawer.liquid) for the drawer cart 
 
 ```HTML
 <!-- Yakk Button Start -->
-{% if settings.bulk_gifting_enabled %}
+{% if settings.yakk_enabled %}
   {% render 'yakk-btn' %}
 {% endif %}
 <!-- End Yakk Button -->
@@ -57,33 +57,33 @@ The [Settings Schema](/config/settings_schema.json) has been modified with the e
 },
 {
   "type": "checkbox",
-  "id": "bulk_gifting_enabled",
+  "id": "yakk_enabled",
   "label": "Enable Bulk Gifting",
   "default": false
 },
 {
   "type": "page",
-  "id": "bulk_gifting_page",
+  "id": "yakk_page",
   "label": "Bulk Gifting Page",
   "info": "Select the page that will be used for the bulk gifting."
 },
 {
   "type": "text",
-  "id": "bulk_gifting_btn_text",
+  "id": "yakk_btn_text",
   "label": "Bulk Gifting Button Text",
   "info": "Enter the text for the bulk gifting button.",
   "default": "Send as Gift"
 },
 {
   "type": "color",
-  "id": "yakk_btn_bg",
-  "label": "Bulk Gifting Button Background",
+  "id": "yakk_btn_bg_color",
+  "label": "Bulk Gifting Button Background Color",
   "default": "#000000"
 },
 {
   "type": "color",
-  "id": "yakk_btn_text",
-  "label": "Bulk Gifting Button Text",
+  "id": "yakk_btn_txt_color",
+  "label": "Bulk Gifting Button Text Color",
   "default": "#ffffff"
 }
 ```

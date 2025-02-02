@@ -2,7 +2,7 @@
 
 ## Preview Theme
 
-URL: `https://tpm-yakk.myshopify.com/`
+URL: https://tpm-yakk.myshopify.com/
 
 Password: `yakkyakkyakk`
 

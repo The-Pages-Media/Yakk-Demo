@@ -1555,7 +1555,46 @@
         "id": "cart_drawer_collection",
         "label": "t:settings_schema.cart.settings.cart_drawer.collection.label",
         "info": "t:settings_schema.cart.settings.cart_drawer.collection.info"
-      }
+      },
+      {
+        "type": "header",
+        "content": "Bulk Gifting"
+      },
+      {
+        "type": "paragraph",
+        "content": "Enable bulk gifting if using a drawer cart."
+      },
+      {
+        "type": "checkbox",
+        "id": "bulk_gifting_enabled",
+        "label": "Enable Bulk Gifting",
+        "default": false
+      },
+      {
+        "type": "page",
+        "id": "bulk_gifting_page",
+        "label": "Bulk Gifting Page",
+        "info": "Select the page that will be used for the bulk gifting."
+      },
+      {
+        "type": "text",
+        "id": "bulk_gifting_btn_text",
+        "label": "Bulk Gifting Button Text",
+        "info": "Enter the text for the bulk gifting button.",
+        "default": "Send as Gift"
+      },
+      {
+        "type": "color",
+        "id": "yakk_btn_bg",
+        "label": "Bulk Gifting Button Background",
+        "default": "#000000"
+      },
+      {
+        "type": "color",
+        "id": "yakk_btn_text",
+        "label": "Bulk Gifting Button Text",
+        "default": "#ffffff"
+      }    
     ]
   }
 ]

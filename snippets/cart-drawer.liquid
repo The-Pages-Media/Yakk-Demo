@@ -429,6 +429,9 @@
             {{ 'sections.cart.checkout' | t }}
           </button>
         </div>
+        {% if settings.bulk_gifting_enabled %}
+          {% render 'yakk-btn' %}
+        {% endif %}
       </div>
     </div>
   </div>

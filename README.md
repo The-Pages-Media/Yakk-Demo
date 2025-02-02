@@ -1,10 +1,10 @@
-# Store Name
+# Yakk 🤗 The Pages Media
 
-[store-name].myshopify.com
+tpm-yakk.myshopify.com
 
 ## Preview URL
 
-https://[store-name].com/?preview_theme_id=[THEME_ID]
+`https://tpm-yakk.myshopify.com/`
 
 ## Requirements
 
@@ -31,4 +31,4 @@ If working out of the the customizer and need to save updated sections use:
 
 ### v1.0.0 - YYYY-MM-DD
 
-- Initial release
+- Initial releases

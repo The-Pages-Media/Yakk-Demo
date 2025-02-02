@@ -10,6 +10,8 @@ Password: `yakkyakkyakk`
 
 Because there is a lack of standardization across Shopify websites when it comes to cart drawers, minor modifications have been made to the theme in order to help make sure the bulk gifting feature works in the drawer cart seamlessly.
 
+You can implement the button without theme settings (settings schema). Theme settings allows for more control for the merchant.
+
 ### Yakk Button
 
 See the [Yakk Button Snippet](/snippets/yakk-btn.liquid) for the button that will be rendered in the drawer cart.

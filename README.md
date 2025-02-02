@@ -6,29 +6,18 @@ tpm-yakk.myshopify.com
 
 `https://tpm-yakk.myshopify.com/`
 
-## Requirements
+## Modifications
 
-It is recommended for this project to use Shopify CLI
+Because there is a lack of standardization across Shopify websites when it comes to cart drawers, minor modifications have been made to the theme in order to help make sure the bulk gifting feature works in the drawer cart seamlessly.
 
-- [Shopify CLI Reference](https://shopify.dev/themes/tools/cli)  
-- [Commands](https://shopify.dev/docs/themes/tools/cli/commands)  
-- [Upgrade](https://shopify.dev/docs/themes/tools/cli/commands#upgrade)
-- [Environments](https://shopify.dev/docs/themes/tools/cli/environments)
+### Yakk Button
 
-## Get Started
+See the [Yakk Button Snippet](/snippets/yakk-btn.liquid) for the button that will be rendered in the drawer cart.
 
-Using the Shopify CLI, can run locally using:
+### Drawer Cart
 
-`shopify theme dev -s store-name`
+See the [Drawer Cart Snippet](/snippets/cart-drawer.liquid) for the drawer cart that will be rendered in the theme.
 
-_The `-s` is shorthand for `--store`. It should be noted that `.myshopify.com` is not necessary to pass for the store-name._
+### Settings Schema
 
-If working out of the the customizer and need to save updated sections use:
-
-`shopify theme dev --theme-editor-sync -s store-name`
-
-## Changelog
-
-### v1.0.0 - YYYY-MM-DD
-
-- Initial releases
+The [Settings Schema](/config/settings_schema.json) has been modified with the existing Cart Settings to ensure the bulk gifting feature works and can be selectively enabled when the drawer cart is in use.

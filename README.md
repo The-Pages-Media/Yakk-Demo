@@ -34,7 +34,7 @@ See the [Yakk Button Snippet](/snippets/yakk-btn.liquid) for the button that wil
 
 ### Drawer Cart
 
-See the [Drawer Cart Snippet](/snippets/cart-drawer.liquid) for the drawer cart that will be rendered in the theme.
+See the [Drawer Cart Snippet](/snippets/cart-drawer.liquid) for the drawer cart that will be rendered in the theme. Place snippet where it makes the most sense (before or after the checkout button).
 
 ```HTML
 <!-- Yakk Button Start -->

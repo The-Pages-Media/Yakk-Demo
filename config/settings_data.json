@@ -132,10 +132,13 @@
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
     "currency_code_enabled": false,
-    "cart_type": "page",
+    "cart_type": "drawer",
     "show_vendor": false,
     "show_cart_note": false,
     "cart_drawer_collection": "hydrogen",
+    "yakk_enabled": true,
+    "yakk_page": "bulk-gifting",
+    "yakk_btn_bg_color": "#fc3541",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",

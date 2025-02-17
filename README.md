@@ -89,3 +89,7 @@ The [Settings Schema](/config/settings_schema.json) has been modified with the e
   "default": "#ffffff"
 }
 ```
+
+## Resources
+
+Check the [demo-samples](demo-samples/) folder for completed CSVs to use for upload testing orders.

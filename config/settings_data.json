@@ -134,7 +134,7 @@
     "currency_code_enabled": false,
     "cart_type": "page",
     "show_vendor": false,
-    "show_cart_note": false,
+    "show_cart_note": true,
     "cart_drawer_collection": "hydrogen",
     "yakk_enabled": false,
     "yakk_page": "bulk-gifting",

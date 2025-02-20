@@ -18,6 +18,8 @@
           >{{ cart.note }}</textarea>
         </cart-note>
       {%- endif -%}
+      
+      <input form="cart" type="hidden" name="attributes[updated_order_notes]" value="none" />
 
       <div class="cart__blocks">
         {% for block in section.blocks %}
